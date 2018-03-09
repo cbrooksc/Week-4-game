@@ -19,9 +19,39 @@ img {
 }
 
 .crystal:hover{
-    box-shadow: 15px 15px 15px rgba(0,0,0,0);   
+    box-shadow: 15px 15px 15px rgba(24, 143, 113, 0);   
     cursor: pointer; 
     transition: box-shadow 1s;
     
+}
 
+
+.container
+,#results
+,#head {
+    
+    font-size: 30px;
+    line-height: 34px;
+    font-family:Cursive;
+    color:white;
+    font-weight: bolder;
+}
+
+#head {
+    text-align: center;
+    font-size: 45px;
+    padding: 20px;
+    margin-top: 3px;
+    font-family: cursive;
+}
+
+
+body {
+    background: url('../images/GreekGodess.jpg');
+}
+
+#previous
+,#win 
+,#lost{
+    color: black;
 }

@@ -25,7 +25,7 @@ random_result = Math.floor(Math.random() * 101 ) + 19;
 $("#results").html('Random Results: ' + random_result);
     // console.log(random_result);
 
-// building the for loop to 
+// building the for loop 
 for(var i = 0; i < 4; i++){
  // Getting the 4 random numbers   
     var random = Math.floor(Math.random () * 11 ) + 1;
@@ -67,6 +67,7 @@ $(document).on('click', ".crystal", function(){
 
     if(previous > random_result){
         lost--;
+        
         $("#lost").html("You lost: "  + lost);
 
         previous = 0;
