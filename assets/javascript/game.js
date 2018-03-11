@@ -1,5 +1,5 @@
 
-// $(document).ready(function(){
+$(document).ready(function(){
 
 // Declaring Global variables needed for the game
 
@@ -66,8 +66,9 @@ $(document).on('click', ".crystal", function(){
     console.log(previous);
 
     if(previous > random_result){
-        lost--;
+        lost ++;
         
+
         $("#lost").html("You lost: "  + lost);
 
         previous = 0;
@@ -92,33 +93,4 @@ $(document).on('click', ".crystal", function(){
 
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// });
+ });
